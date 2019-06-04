@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>dafeiTree</title>
+	<link href="menuTree.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="menuTree.js"></script>
+	<script type="text/javascript" src="demo.js"></script>
+	<style>
+	.margin-lr{
+		margin-left:100px;
+		font-size: 12px;
+		color: #3c4b52;
+	}
+	.logs{
+		width:980px;
+		border: 1px solid #ccc;
+		padding: 30px;
+		word-break:break-all;
+	}
+	.operate-area{
+		margin-left:100px;
+		margin-bottom: 30px;
+	}
+	.operate-area a{
+		text-decoration: none;
+		font-size: 12px;
+		display: inline-block;
+		padding: 5px 8px;
+		width:80px;
+		text-align: center;
+		background: #ddd;
+		color: #3c4b52;
+		border-radius: 3px;
+		margin-right: 10px;
+	}
+	.operate-area a:hover{
+		opacity: 0.7
+	}
+	</style>
+</head>
+<body>
+<div class="operate-area">
+	<a href="javascript:;" id="getCheckIds">获取勾选Id</a>
+	<a href="javascript:;" id="getCheckData">获取勾选数据</a>
+</div>
+<div id="myTree" class="tree" style="margin-left: 80px;">
+	
+		
+</div>
+<div class="logs margin-lr"></div>
+</body>
+</html>
